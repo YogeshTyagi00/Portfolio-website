@@ -32,7 +32,7 @@ export function Hero() {
     //document.body.removeChild(link)
 
     // Option 2: Open CV in new tab 
-    window.open('/cv.pdf', '_blank')
+    window.open('/cv_new.pdf', '_blank')
   }
 
   return (
