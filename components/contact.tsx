@@ -47,7 +47,7 @@ export function Contact() {
       } else {
         throw new Error("Failed to send message")
       }
-    } catch (error) {
+    } catch {
       setError("Failed to send message. Please try again or contact me directly.")
     } finally {
       setIsSubmitting(false)
