@@ -3,11 +3,11 @@
 import type React from "react"
 
 import { useState } from "react"
-import { Button } from "./ui/button"
-import { Input } from "./ui/input"
-import { Textarea } from "./ui/textarea"
-import { Card, CardContent, CardHeader, CardTitle } from "./ui/card"
-import { Mail, MapPin, Send,CheckCircle, AlertCircle } from 'lucide-react'
+import { Button } from "@/components/ui/button"
+import { Input } from "@/components/ui/input"
+import { Textarea } from "@/components/ui/textarea"
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
+import { Mail, MapPin, Send, CheckCircle, AlertCircle } from "lucide-react"
 
 export function Contact() {
   const [formData, setFormData] = useState({
@@ -25,10 +25,10 @@ export function Contact() {
     setError("")
 
     try {
-      const response = await fetch('https://formspree.io/f/xdkzenav', { 
-        method: 'POST',
+      const response = await fetch("https://formspree.io/f/xdkzenav", {
+        method: "POST",
         headers: {
-          'Content-Type': 'application/json',
+          "Content-Type": "application/json",
         },
         body: JSON.stringify({
           name: formData.name,
@@ -40,15 +40,15 @@ export function Contact() {
       if (response.ok) {
         setIsSubmitted(true)
         setFormData({ name: "", email: "", message: "" })
-        
+
         setTimeout(() => {
           setIsSubmitted(false)
         }, 5000)
       } else {
-        throw new Error('Failed to send message')
+        throw new Error("Failed to send message")
       }
     } catch (error) {
-      setError('Failed to send message. Please try again or contact me directly.')
+      setError("Failed to send message. Please try again or contact me directly.")
     } finally {
       setIsSubmitting(false)
     }
@@ -76,8 +76,8 @@ export function Contact() {
             <div>
               <h3 className="text-2xl font-semibold text-slate-900 dark:text-white mb-6">Let&apos;s work together</h3>
               <p className="text-slate-600 dark:text-slate-400 mb-8">
-                Whether you have a project in mind or just want to chat about technology, I&apos;d love to hear from you.
-                Drop me a message and I&apos;ll get back to you as soon as possible.
+                Whether you have a project in mind or just want to chat about technology, I&apos;d love to hear from
+                you. Drop me a message and I&apos;ll get back to you as soon as possible.
               </p>
             </div>
 
@@ -91,16 +91,6 @@ export function Contact() {
                   <p className="text-slate-600 dark:text-slate-400">tyagiyogesh848@gmail.com</p>
                 </div>
               </div>
-
-              {/* <div className="flex items-center space-x-4">
-                <div className="w-12 h-12 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full flex items-center justify-center">
-                  <MessageCircle className="h-6 w-6 text-white" />
-                </div>
-                <div>
-                  <p className="font-medium text-slate-900 dark:text-white">Whatsapp</p>
-                  <p className="text-slate-600 dark:text-slate-400">+91 9079933627</p>
-                </div>
-              </div> */}
 
               <div className="flex items-center space-x-4">
                 <div className="w-12 h-12 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full flex items-center justify-center">
@@ -139,15 +129,15 @@ export function Contact() {
                       </div>
                     </div>
                   )}
-                  
+
                   <form onSubmit={handleSubmit} className="space-y-6">
                     <div>
-                      <Input 
-                        name="name" 
-                        placeholder="Your Name" 
-                        value={formData.name} 
-                        onChange={handleChange} 
-                        required 
+                      <Input
+                        name="name"
+                        placeholder="Your Name"
+                        value={formData.name}
+                        onChange={handleChange}
+                        required
                         disabled={isSubmitting}
                       />
                     </div>
