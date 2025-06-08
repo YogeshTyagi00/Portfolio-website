@@ -53,7 +53,7 @@ export function About() {
         >
           <h2 className="text-4xl font-bold text-slate-900 dark:text-white mb-4">About Me</h2>
           <p className="text-xl text-slate-600 dark:text-slate-400 max-w-3xl mx-auto">
-            I'm a passionate full-stack developer creating digital solutions that make a
+            I&apos;m a passionate full-stack developer creating digital solutions that make a
             difference. I love turning complex problems into simple, beautiful designs.
           </p>
         </div>

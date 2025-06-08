@@ -128,7 +128,7 @@ export function Projects() {
 
 import { useEffect, useRef, useState } from "react"
 import { Card, CardContent } from "./ui/card"
-import { Clock, Code2, Rocket } from 'lucide-react'
+import { Clock, Rocket } from 'lucide-react'
 
 export function Projects() {
   const [isVisible, setIsVisible] = useState(false)
@@ -161,7 +161,7 @@ export function Projects() {
         >
           <h2 className="text-4xl font-bold text-slate-900 dark:text-white mb-4">Featured Projects</h2>
           <p className="text-xl text-slate-600 dark:text-slate-400 max-w-3xl mx-auto">
-            I'm currently working on some exciting projects that showcase my skills and passion for development.
+            I&apos;m currently working on some exciting projects that showcase my skills and passion for development.
           </p>
         </div>
 
@@ -181,7 +181,7 @@ export function Projects() {
               </h3>
               
               <p className="text-lg text-slate-600 dark:text-slate-400 mb-8 leading-relaxed">
-                I'm currently working on some amazing projects that will showcase my skills in modern web development. 
+                I&apos;m currently working on some amazing projects that will showcase my skills in modern web development. 
                 Stay tuned for updates!
               </p>
 
@@ -192,7 +192,7 @@ export function Projects() {
 
               <div className="mt-8 pt-8 border-t border-slate-200 dark:border-slate-700">
                 <p className="text-sm text-slate-500 dark:text-slate-400 mb-4">
-                  Technologies I'm working with:
+                  Technologies I&apos;m working with:
                 </p>
                 <div className="flex flex-wrap justify-center gap-2">
                   {["React", "Next.js", "TypeScript", "Tailwind CSS", "Node.js", "PostgreSQL"].map((tech) => (

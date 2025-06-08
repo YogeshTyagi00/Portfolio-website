@@ -7,7 +7,7 @@ import { Button } from "./ui/button"
 import { Input } from "./ui/input"
 import { Textarea } from "./ui/textarea"
 import { Card, CardContent, CardHeader, CardTitle } from "./ui/card"
-import { Mail, MapPin, Send, MessageCircle, CheckCircle, AlertCircle } from 'lucide-react'
+import { Mail, MapPin, Send,CheckCircle, AlertCircle } from 'lucide-react'
 
 export function Contact() {
   const [formData, setFormData] = useState({
@@ -67,17 +67,17 @@ export function Contact() {
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-slate-900 dark:text-white mb-4">Get In Touch</h2>
           <p className="text-xl text-slate-600 dark:text-slate-400 max-w-3xl mx-auto">
-            I'm always open to discussing new opportunities and interesting projects.
+            I&apos;m always open to discussing new opportunities and interesting projects.
           </p>
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12">
           <div className="space-y-8">
             <div>
-              <h3 className="text-2xl font-semibold text-slate-900 dark:text-white mb-6">Let's work together</h3>
+              <h3 className="text-2xl font-semibold text-slate-900 dark:text-white mb-6">Let&apos;s work together</h3>
               <p className="text-slate-600 dark:text-slate-400 mb-8">
-                Whether you have a project in mind or just want to chat about technology, I'd love to hear from you.
-                Drop me a message and I'll get back to you as soon as possible.
+                Whether you have a project in mind or just want to chat about technology, I&apos;d love to hear from you.
+                Drop me a message and I&apos;ll get back to you as soon as possible.
               </p>
             </div>
 
@@ -126,7 +126,7 @@ export function Contact() {
                     Message sent successfully!
                   </h3>
                   <p className="text-slate-600 dark:text-slate-400">
-                    Thank you for reaching out. I'll get back to you soon!
+                    Thank you for reaching out. I&apos;ll get back to you soon!
                   </p>
                 </div>
               ) : (

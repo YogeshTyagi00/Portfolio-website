@@ -46,7 +46,7 @@ export function Hero() {
           >
             <div className="space-y-4">
               <h1 className="text-5xl lg:text-7xl font-bold text-slate-900 dark:text-white">
-                Hi, I'm{" "}
+                Hi, I&apos;m{" "}
                 <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">Yogesh</span>
               </h1>
               <h2 className="text-2xl lg:text-3xl text-slate-600 dark:text-slate-300 font-light">
