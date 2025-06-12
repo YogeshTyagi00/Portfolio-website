@@ -35,15 +35,15 @@ export function Skills() {
     {
       title: "Backend",
       skills: [
-        { name: "Node.js", level: 55 },
-        { name: "Python", level: 40 },
-        { name: "PostgreSQL", level: 20 }
+        { name: "Node.js", level: 60},
+        { name: "Express.js", level: 55 },
+        { name: "MongoDB", level: 20 }
       ],
     },
     {
       title: "Tools & Others",
       skills: [
-        { name: "Git/GitHub", level: 55 },
+        { name: "Git/GitHub", level: 95 },
         { name: "AWS", level: 35 },
         { name: "Figma", level: 40 },
       ],
