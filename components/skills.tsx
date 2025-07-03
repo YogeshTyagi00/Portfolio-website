@@ -28,22 +28,22 @@ export function Skills() {
       title: "Frontend",
       skills: [
         { name: "React/Next.js", level: 85},
-        { name: "TypeScript", level:95 },
-        { name: "Tailwind CSS", level: 95 }
+        { name: "TypeScript", level:80 },
+        { name: "Tailwind CSS", level: 90 }
       ],
     },
     {
       title: "Backend",
       skills: [
-        { name: "Node.js", level: 60},
-        { name: "Express.js", level: 55 },
-        { name: "MongoDB", level: 20 }
+        { name: "Node.js", level: 80},
+        { name: "Express.js", level: 85 },
+        { name: "MongoDB", level: 80 }
       ],
     },
     {
       title: "Tools & Others",
       skills: [
-        { name: "Git/GitHub", level: 95 },
+        { name: "Git/GitHub", level: 85 },
         { name: "AWS", level: 35 },
         { name: "Figma", level: 40 },
       ],

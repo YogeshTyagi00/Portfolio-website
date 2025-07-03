@@ -1,4 +1,4 @@
-/* "use client"
+"use client"
 
 import { useEffect, useRef, useState } from "react"
 import { Card, CardContent } from "./ui/card"
@@ -29,28 +29,12 @@ export function Projects() {
 
   const projects = [
     {
-      title: "E-Commerce Platform",
-      description: "A full-stack e-commerce solution built with Next.js, Stripe, and PostgreSQL.",
-      image: "/placeholder.svg?height=300&width=400",
-      technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Stripe"],
-      github: "#",
-      live: "#",
-    },
-    {
-      title: "Task Management App",
-      description: "A collaborative task management application with real-time updates.",
-      image: "/placeholder.svg?height=300&width=400",
-      technologies: ["React", "Node.js", "Socket.io", "MongoDB"],
-      github: "#",
-      live: "#",
-    },
-    {
-      title: "Weather Dashboard",
-      description: "A beautiful weather dashboard with location-based forecasts and charts.",
-      image: "/placeholder.svg?height=300&width=400",
-      technologies: ["Vue.js", "Chart.js", "OpenWeather API", "CSS3"],
-      github: "#",
-      live: "#",
+      title: "DTU Hub!",
+      description: "A full-stack platform built for DTU students to get real-time updates, discover campus events, and register for societies with ease!",
+      image: "/dtuhub.png?height=300&width=400",
+      technologies: ["React", "Vite", "Tailwind CSS", "ExpressJs", "NodeJs","MongoDB"],
+      github: "https://github.com/YogeshTyagi00/College-Website",
+      live: "https://dtuhub.onrender.com/",
     },
   ]
 
@@ -123,8 +107,8 @@ export function Projects() {
       </div>
     </section>
   )
-} */
-"use client"
+}
+/* "use client"
 
 import { useEffect, useRef, useState } from "react"
 import { Card, CardContent } from "./ui/card"
@@ -209,9 +193,9 @@ export function Projects() {
           </Card>
         </div>
 
-        {/* Optional: Add a grid of placeholder project cards */}
+        Optional: Add a grid of placeholder project cards
 
-{/*         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
           {[1, 2, 3].map((index) => (
             <Card
               key={index}
@@ -238,8 +222,8 @@ export function Projects() {
               </CardContent>
             </Card>
           ))}
-        </div> */}
+        </div>
       </div>
     </section>
   )
-}
+} */

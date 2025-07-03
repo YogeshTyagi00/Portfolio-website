@@ -32,7 +32,7 @@ export function Hero() {
     //document.body.removeChild(link)
 
     // Option 2: Open CV in new tab 
-    window.open('/cv_new.pdf', '_blank')
+    window.open('/RESUME(2024-25).pdf', '_blank')
   }
 
   return (
@@ -112,7 +112,7 @@ export function Hero() {
               <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full animate-pulse"></div>
               <div className="relative z-10 w-72 h-72 mx-auto mt-4 rounded-full overflow-hidden border-4 border-white dark:border-slate-800 shadow-2xl">
                 <Image
-                  src="/placeholder.jpg?height=300&width=300"
+                  src="/1728876879128.jpg?height=300&width=300"
                   alt="Profile"
                   width={300}
                   height={300}
