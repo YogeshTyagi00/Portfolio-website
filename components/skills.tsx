@@ -44,7 +44,7 @@ export function Skills() {
       title: "Tools & Others",
       skills: [
         { name: "Git/GitHub", level: 85 },
-        { name: "AWS", level: 35 },
+        { name: "Postman", level: 70 },
         { name: "Figma", level: 40 },
       ],
     },
