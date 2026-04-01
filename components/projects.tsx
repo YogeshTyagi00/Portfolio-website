@@ -31,7 +31,7 @@ export function Projects() {
     {
       title: "DTU Hub!",
       description: "A full-stack platform built for DTU students to get real-time updates, discover campus events, and register for societies with ease!",
-      image: "/dtuhub.png?height=300&width=400",
+      image: "/dtuhub.png",
       technologies: ["React", "Vite", "Tailwind CSS", "ExpressJs", "NodeJs","MongoDB"],
       github: "https://github.com/YogeshTyagi00/College-Website",
       live: "https://dtuhub.onrender.com/",
@@ -39,7 +39,7 @@ export function Projects() {
     {
       title: "DermaTrack!",
       description: "Click a product photo and get product analysis personalized for your skin.",
-      image: "/dermatrack.png?height=300&width=400",
+      image: "/dermatrack.png",
       technologies: ["React+Vite","ExpressJs", "NodeJs","MongoDB","SupaBase","OpenAI","Oauth2"],
       github: "https://github.com/YogeshTyagi00/DarmaTrack",
       live: "https://darmatrack.vercel.app/",
