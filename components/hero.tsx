@@ -112,7 +112,7 @@ export function Hero() {
               <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full animate-pulse"></div>
               <div className="relative z-10 w-72 h-72 mx-auto mt-4 rounded-full overflow-hidden border-4 border-white dark:border-slate-800 shadow-2xl">
                 <Image
-                  src="/1728876879128.jpg?height=300&width=300"
+                  src="/image.jpeg?height=300&width=300"
                   alt="Profile"
                   width={300}
                   height={300}

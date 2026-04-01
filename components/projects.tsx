@@ -36,6 +36,14 @@ export function Projects() {
       github: "https://github.com/YogeshTyagi00/College-Website",
       live: "https://dtuhub.onrender.com/",
     },
+    {
+      title: "DermaTrack!",
+      description: "Click a product photo and get product analysis personalized for your skin.",
+      image: "/dermatrack.png?height=300&width=400",
+      technologies: ["React+Vite","ExpressJs", "NodeJs","MongoDB","SupaBase","OpenAI","Oauth2"],
+      github: "https://github.com/YogeshTyagi00/DarmaTrack",
+      live: "https://darmatrack.vercel.app/",
+    },
   ]
 
   return (
